@@ -1,0 +1,16 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "Lib curso JS TDD na Prática",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "tbb",
+    "library"
+  ],
+  "author": "Francisco do Vale <juniordev2@gmail.com> (http://www.chicojunior.com.br/)",
+  "license": "MIT"
+}
