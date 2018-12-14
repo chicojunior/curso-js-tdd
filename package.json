@@ -1,16 +1,21 @@
 {
-  "name": "js-tdd-course",
+  "name": "js-tdd",
   "version": "1.0.0",
-  "description": "Lib curso JS TDD na Prática",
+  "description": "",
   "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "husky": "^1.2.1"
+  },
   "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "js",
-    "tbb",
-    "library"
-  ],
-  "author": "Francisco do Vale <juniordev2@gmail.com> (http://www.chicojunior.com.br/)",
-  "license": "MIT"
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
